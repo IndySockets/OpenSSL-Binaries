@@ -25,7 +25,7 @@
       ;;
   esac
 
-versions=("3.3.1" "3.2.2" "3.1.6" "3.0.14")
+versions=("3.3.2" "3.2.3" "3.1.7" "3.0.15")
 for ver in "${versions[@]}"; do
   if [ ! -e "openssl-${ver}.tar.gz" ]; then
     wget https://github.com/openssl/openssl/archive/refs/tags/openssl-${ver}.tar.gz	
